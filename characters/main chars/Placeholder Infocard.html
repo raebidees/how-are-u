@@ -1,148 +1,162 @@
 <!DOCTYPE html>
-<html>
-  <p><a href="https://raebidees.github.io/how-are-u/characters/main%20chars.html"> >Main Characters</a></p>
-  <head>
-    <title>Placeholder's Infocard</title>
-    <style type="text/css">
-      * {
-        box-sizing: border-box;
-      }
-      body {
-        background-color: #ffffff;
-      }
-      #container {
-        display: flex;
-        width: 800px;
-        margin-left: auto;
-        margin-right: auto;
-      }
-      #header {
-        width: 800px;
-        margin-left: auto;
-        margin-right: auto;
-      }
-      #content {
-        width: 800px;
-      }
-      .images {
-        width: 200px;
-        border-radius: 50px;
-        float:right;
-        margin-left: 1em;
-      }
-      .imagesleft {
-        width: 200px;
-        border-radius: 50px;
-        float:left;
-        margin-right: 1em;
-      }
-      p {
-        margin-bottom: 2.5em;
-        overflow: hidden;
-      }
-      p:last-child {
-        overflow: visible;
-      }
-       /* 1. Unvisited link (default state) */
-  a:link {
-    color: #a8a8a8; 
-  }
+<style type="text/css">
+body {
+    background-color: #ffffff;
+}
+.container {
+  width: 800px;
+  display: grid;
+  grid-template-areas: "sidebar main";
+  grid-template-columns: 200px auto;
+}
 
-  /* 2. Visited link (already clicked by user) */
-  a:visited {
-    color: #5a5a5a; 
-  }
+.content {
+    width: 800px;
+}
 
-  /* 3. Hover state (mouse pointer is over the link) */
-  a:hover {
-    color: #bcbcbc; 
-    text-decoration: underline; 
-  }
+.sidebar {
+  grid-area: sidebar;
+  background-color: lightgray;
+  
+}
 
-  /* 4. Active state (the moment the link is being clicked) */
-  a:active {
+.main {
+  grid-area: main;
+  background-color: white;
+}
+
+.images {
+    width: 200px;
+    border-radius: 50px;
+    float:right;
+    margin-left: 1em;
+}
+
+.imagesleft {
+    width: 200px;
+    border-radius: 50px;
+    float:left;
+    margin-right: 1em;
+}
+
+p {
+    margin-bottom: 2.5em;
+    overflow: hidden;
+}
+p:last-child {
+    overflow: visible;
+}
+
+a:link {
+    color: #a8a8a8;
+}
+a:visited {
+    color: #5a5a5a;
+}
+a:hover {
+    color: #bcbcbc;
+    text-decoration: underline;
+}
+a:active {
     color: #252525;
-  }
-    </style>
-  </head>
-  <body>
-   <div id="header"><h1>&nbsp;&nbsp;&nbsp;&nbsp;Overview</h1></div>
-       <div id="container"><div id="content">
-      <center><p><b>WARNING: <u>This page contains spoilers</u> and information that <u>may be inaccurate to the latest released episode.</u> Under <u>NO circumstances</u> should this document be <u>leaked to the public <i>WITHOUT RABY’S CONSENT.</i></u> Information on this document should <u>only be shared between those who work on the show, like voice actors, animators, or storyboard artists, NOT STRANGERS OR FANS.</u></b></p>
-      <p><b>If you want to share information, ask Raby about the details. If information is <u><i>accidentally</i></u> leaked, <u>no</u> punishments will be given. We are human and all make mistakes, but please be more careful next time, thank you! :3c</b></p></center>
-      </div>
-    </div>
-   <hr>
-    <br>
-    
-    <div id="header"><h1>&nbsp;&nbsp;&nbsp;&nbsp;Basic Information</h1></div>
-    <div id="container"><div id="content">
-      <div class="images"><img src="https://github.com/raebidees/how-are-u/blob/main/images/Placeholder/Screenshot%202026-08-27%2011.23.35%20AM.png?raw=true" alt="Softie after Saint helped him." width=150px height=auto></div>
-      <p>&nbsp;&nbsp;&nbsp;&nbsp;If it wasn't obvious, Placeholder is a character who's sole purpose was to be a placeholder for other characters. Anyway, not only is he a placeholder in the show, he's also a placeholder here! Everyone say thank you Placeholder!! Now, as boring as such a job might be, Placeholder is enthusiastic and is always happy to help when needed. Her existence is a very paradox, because they go by any and all pronouns, along with any name you give them, just so long as it's directed at her. Technically, you could point at any Angelpack and say 'that's Placeholder!' and you would be right, because it very well could be. Placeholder is technically <b>everyone</b>, but also nobody at once. It's best not to think too hard about it... If this changes your perspective on all the Angelpacks, don't let it. Ok? It's like a square and a rectangle. A square can be a rectangle, but a rectangle can't be a square... if that makes sense in this context. Anyway, we love you Placeholder!!!</p>
-    </div>
-    </div>
-    <br>
+}
+</style>
 
-       <div id="header"><h1>&nbsp;&nbsp;&nbsp;&nbsp;Personality</h1></div>
-    <div id="container"><div id="content">
-      <div class="images"><img src="https://github.com/raebidees/how-are-u/blob/main/images/Placeholder/Screenshot%202026-08-27%2011.23.35%20AM.png?raw=true" alt="insert imag" width=150px height=auto></div>
-      <p>&nbsp;&nbsp;&nbsp;&nbsp;The best way to describe Placeholder's personality is by saying that he's very similar to Two in their enthusiasm, but also with the diligence of the Zeroes... if that makes sense. She's just happy to help! Basically, Placeholder is a loyal and enthusiastic helper who is meant to help set up and provide a baseline for... really anything.
-       <br>
+<html>
+<div class='container'>
+  <div class='sidebar'>
+    <p><a href="https://raebidees.github.io/how-are-u/characters/main%20chars.html"> >Main Characters</a></p>
+  </div>
+  <div class='main'>
+      <div class='content'>
+        <h1>&nbsp;&nbsp;&nbsp;&nbsp;Overview</h1>
+        <center><p><b>WARNING: <u>This page contains spoilers</u> and information that <u>may be inaccurate to the latest released episode.</u> Under <u>NO circumstances</u> should this document be <u>leaked to the public <i>WITHOUT RABY’S CONSENT.</i></u> Information on this document should <u>only be shared between those who work on the show, like voice actors, animators, or storyboard artists, NOT STRANGERS OR FANS.</u></b></p>
+        <p><b>If you want to share information, ask Raby about the details. If information is <u><i>accidentally</i></u> leaked, <u>no</u> punishments will be given. We are human and all make mistakes, but please be more careful next time, thank you! :3c</b></p></center>
+      </div>
+      <hr>
+      <br>
+      
+      <div class='content'>
+        <h1>&nbsp;&nbsp;&nbsp;&nbsp;Basic Information</h1>
+        <div class="images"><img src="https://github.com/raebidees/how-are-u/blob/main/images/Placeholder/Screenshot%202026-08-27%2011.23.35%20AM.png?raw=true" alt="Softie after Saint helped him." width=150px height=auto></div>
+        <p>&nbsp;&nbsp;&nbsp;&nbsp;If it wasn't obvious, Placeholder is a character who's sole purpose was to be a placeholder for other characters. Anyway, not only is he a placeholder in the show, he's also a placeholder here! Everyone say thank you Placeholder!! Now, as boring as such a job might be, Placeholder is enthusiastic and is always happy to help when needed. Her existence is a very paradox, because they go by any and all pronouns, along with any name you give them, just so long as it's directed at her. Technically, you could point at any Angelpack and say 'that's Placeholder!' and you would be right, because it very well could be. Placeholder is technically <b>everyone</b>, but also nobody at once. It's best not to think too hard about it... If this changes your perspective on all the Angelpacks, don't let it. Ok? It's like a square and a rectangle. A square can be a rectangle, but a rectangle can't be a square... if that makes sense in this context. Anyway, we love you Placeholder!!!</p>
+      </div>
+      
+      
+      <div class='content'>
+        <h1>&nbsp;&nbsp;&nbsp;&nbsp;Personality</h1>
+        <div class="images"><img src="https://github.com/raebidees/how-are-u/blob/main/images/Placeholder/Screenshot%202026-08-27%2011.23.35%20AM.png?raw=true" alt="insert imag" width=150px height=auto></div>
+        <p>&nbsp;&nbsp;&nbsp;&nbsp;The best way to describe Placeholder's personality is by saying that he's very similar to Two in their enthusiasm, but also with the diligence of the Zeroes... if that makes sense. She's just happy to help! Basically, Placeholder is a loyal and enthusiastic helper who is meant to help set up and provide a baseline for... really anything.
+        <br>
         <br>
         &nbsp;&nbsp;&nbsp;&nbsp;Placeholder is diligent in everything that is told for them to do, even if it conflicts with their logic or beliefs. The only person that he follows without question is Jewl. Of course, this power over Placeholder is dangerous, but at least TWH Jewl isn't evil, unlike MCARGBIARPS Jewl... anyway, Placeholder also cares deeply about everyone, except for those who are evil. He doesn't listen to people like Ryze, Farrow, Cani or anyone that annoys him.
-      <br>
-      <br>
-     &nbsp;&nbsp;&nbsp;&nbsp;Throughout the entire show, Placeholder doesn't really change much. The main difference from the beginning to the end is that in the beginning they're a tad bit more enthusiastic, while in the end he's more mature. It's only a small difference though.
-      </p>
-    </div>
-    </div>
-    <br>
-
-    <div id="header"><h1>&nbsp;&nbsp;&nbsp;&nbsp;Relations</h1></div>
-    <div id="container"><div id="content">
-      <div class="imagesleft"><img src="https://github.com/raebidees/how-are-u/blob/main/images/2026_08_25_0hj_Kleki.png?raw=true" alt="sait" width=150px height=auto></div>
-     <p><h2><a href="https://raebidees.github.io/how-are-u/characters/side%20chars/Jewl%20Infocard.html">Jewl</a></h2></p>
-      <p>Placeholder sees Jewl as a parental figure more than anything. To him, Jewl is a mother, but also a boss. He respects her and listens to her and he even shares what happened during the day. Of course, she always listens with rapt attention, even if she already knows everything that happened.</p>
-      <br>
-       <div class="imagesleft"><img src="https://github.com/raebidees/how-are-u/blob/main/images/2026_08_25_0hj_Kleki.png?raw=true" alt="Saint" width=150px height=auto></div>
-     <p><h2><a href="https://raebidees.github.io/how-are-u/characters/main%20chars/Saint%20Infocard.html">Saint</a></h2></p>
-      <p>Placeholder sees Saint as a boss, almost like a military sargent, even if he's quite the opposite. According to Jewl, Saint is always to be trusted in his commands, but questioning such demands is also ok.</p>
-    </div>
-    </div>
-       <br>
-
-    <div id="header"><h1>&nbsp;&nbsp;&nbsp;&nbsp;Abilities</h1></div>
-    <div id="container"><div id="content">
-      <div class="images"><img src="https://github.com/raebidees/how-are-u/blob/main/images/Placeholder/Screenshot%202026-08-27%2011.23.35%20AM.png?raw=true" alt="yeee" width=150px height=auto></div>
-     <p><h2>My place is no longer held...</h2> <h3>"Look, I'm you!"</h3></p>
-      <p>Placeholder has the ability to appear as any Angelpack, matching their size, personality, voice, and even abilities. This power has no limit to who they can copy, except for the fact that they have to be an Angelpack. If Jewl isn't there, then Placeholder can become any character he pleases.</p>
-      <br>
-       <div class="images"><img src="https://github.com/raebidees/how-are-u/blob/main/images/Placeholder/Screenshot%202026-08-27%2011.23.35%20AM.png?raw=true" alt="yaaa" width=150px height=auto></div>
-     <p><h2>Mitosis</h2> <h3>"Who's the <i>real</i> placeholder? That's a reference btw"</h3></p>
-      <p>Placeholder can duplicate shimeji style. Each clone acts just like Placeholder and has the same abilities. There is no limit to this cloning... entire screen of just Placeholder...</p>
-    </div>
-    </div>
-    <br>
-    <br>
-    
-       <div id="header"><h1>&nbsp;&nbsp;&nbsp;&nbsp;Lore</h1></div>
-    <div id="container"><div id="content">
-      <div class="images"><img src="https://github.com/raebidees/how-are-u/blob/main/images/Placeholder/Screenshot%202026-08-27%2011.23.35%20AM.png?raw=true" alt="insert imag" width=150px height=auto></div>
-      <p>&nbsp;&nbsp;&nbsp;&nbsp;Unfortunately, because of Placeholder's nature, there isn't much to say about her. No, seriously, she has almost zero lore outside of the episodes. No rouge experiment or deadly virus strain, no parents or trauma, just... existence I suppose.
-       <br>
         <br>
-        &nbsp;&nbsp;&nbsp;&nbsp;Placeholder's whole thing is that she was created purely as a placeholder for images, files, and scenes. But Jewl had gotten attatched to him, so she decided to put her into The Warehouse. In the show, Placeholder appears from the void, making everyone think they they lived there full time and that this was their universe when in reality, the SV's are the residents of the void. Before he joined, Jewl told him everything he needed to know about The Warehouse and who lives in it. Once everything that needed to be known was told Placeholder was released into the world of The Warehouse.
-      <br>
-      <br>
-    </p>
-    </div>
-    </div>
-
-    <div id="header"><h1>&nbsp;&nbsp;&nbsp;&nbsp;Gallery</h1></div>
-    <div id="container"><div id="content">
-      <div class="images"><img src="sigma" alt="yeah put images here" width=150px height=auto></div>
-    </div>
-    </div>
-    <br>
-  </body>
+        <br>
+        &nbsp;&nbsp;&nbsp;&nbsp;Throughout the entire show, Placeholder doesn't really change much. The main difference from the beginning to the end is that in the beginning they're a tad bit more enthusiastic, while in the end he's more mature. It's only a small difference though.
+      </p>
+      </div>
+      
+      
+      
+      <div class='content'>
+        <h1>&nbsp;&nbsp;&nbsp;&nbsp;Relations</h1>
+        <div class="imagesleft"><img src="https://github.com/raebidees/how-are-u/blob/main/images/2026_08_25_0hj_Kleki.png?raw=true" alt="Jewl" width=150px height=auto></div>
+        <h2><a href="https://raebidees.github.io/how-are-u/characters/side%20chars/Jewl%20Infocard.html">Jewl</a></h2>
+        <p>Placeholder sees Jewl as a parental figure more than anything. To him, Jewl is a mother, but also a boss. He respects her and listens to her and he even shares what happened during the day. Of course, she always listens with rapt attention, even if she already knows everything that happened.</p>
+        <br>
+      </div>
+      <div class='content'>
+        <div class="imagesleft"><img src="https://github.com/raebidees/how-are-u/blob/main/images/2026_08_25_0hj_Kleki.png?raw=true" alt="Saint" width=150px height=auto></div>
+        <h2><a href="https://raebidees.github.io/how-are-u/characters/main%20chars/Saint%20Infocard.html">Saint</a></h2>
+        <p>Placeholder sees Saint as a boss, almost like a military sargent, even if he's quite the opposite. According to Jewl, Saint is always to be trusted in his commands, but questioning such demands is also ok.</p>
+        <br>
+      </div>
+      
+      
+      
+      <div class='content'>
+          <h1>&nbsp;&nbsp;&nbsp;&nbsp;Abilities</h1>
+          <div class="images"><img src="https://github.com/raebidees/how-are-u/blob/main/images/Placeholder/Screenshot%202026-08-27%2011.23.35%20AM.png?raw=true" alt="yeee" width=150px height=auto></div>
+          <h2>My place is no longer held...</h2>
+          <h3>"Look, I'm you!"</h3>
+          <p>Placeholder has the ability to appear as any Angelpack, matching their size, personality, voice, and even abilities. This power has no limit to who they can copy, except for the fact that they have to be an Angelpack. If Jewl isn't there, then Placeholder can become any character he pleases.</p>
+          <br>
+          <div class="images"><img src="https://github.com/raebidees/how-are-u/blob/main/images/Placeholder/Screenshot%202026-08-27%2011.23.35%20AM.png?raw=true" alt="yeee" width=150px height=auto></div>
+          <h2>Mitosis</h2>
+          <h3>"Who's the <i>real</i> placeholder? That's a reference btw"</h3>
+          <p>Placeholder can duplicate shimeji style. Each clone acts just like Placeholder and has the same abilities. There is no limit to this cloning... entire screen of just Placeholder...</p>
+          <br>
+      </div>
+      
+      
+      
+      <div class='content'>
+          <h1>&nbsp;&nbsp;&nbsp;&nbsp;Lore</h1>
+          <div class="images"><img src="https://github.com/raebidees/how-are-u/blob/main/images/Placeholder/Screenshot%202026-08-27%2011.23.35%20AM.png?raw=true" alt="insert imag" width=150px height=auto></div>
+          <p>&nbsp;&nbsp;&nbsp;&nbsp;Unfortunately, because of Placeholder's nature, there isn't much to say about her. No, seriously, she has almost zero lore outside of the episodes. No rouge experiment or deadly virus strain, no parents or trauma, just... existence I suppose.
+          <br>
+          <br>
+          &nbsp;&nbsp;&nbsp;&nbsp;Placeholder's whole thing is that she was created purely as a placeholder for images, files, and scenes. But Jewl had gotten attatched to him, so she decided to put her into The Warehouse. In the show, Placeholder appears from the void, making everyone think they they lived there full time and that this was their universe when in reality, the SV's are the residents of the void. Before he joined, Jewl told him everything he needed to know about The Warehouse and who lives in it. Once everything that needed to be known was told Placeholder was released into the world of The Warehouse.
+          <br>
+          <br>
+          </p>
+      </div>
+      
+      
+      
+      
+      <div class='content'>
+          <h1>&nbsp;&nbsp;&nbsp;&nbsp;Development</h1>
+          <p>&nbsp;&nbsp;&nbsp;&nbsp;Unfortunately I don't have anything yet!!! I will soon though trust</p>
+      </div>
+      
+      
+      
+      
+      <div class='content'>
+          <h1>&nbsp;&nbsp;&nbsp;&nbsp;Gallery</h1>
+          <div class="images"><img src="sigma" alt="yeah put images here" width=150px height=auto></div>
+      </div>
+  </div>
+</div>
 </html>
